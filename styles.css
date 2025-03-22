@@ -1,0 +1,90 @@
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #222 !important;
+  }
+  
+  .dark-mode .card {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .dark-mode .btn-primary {
+    background-color: #555;
+    border-color: #555;
+  }
+  /* Hero Section Styles */
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+  
+  .hero-section .container {
+    position: relative;
+    z-index: 1;
+  }
+  /* Product Card Styles */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  /* Footer Styles */
+footer a {
+    text-decoration: none;
+  }
+  
+  footer .input-group {
+    max-width: 400px;
+  }/* Category Card Styles */
+.category-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.category-card img {
+  height: 200px;
+  object-fit: cover;
+}
+/* Category Card Styles */
+.category-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .category-card img {
+    height: 200px;
+    object-fit: cover;
+  }
